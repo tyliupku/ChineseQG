@@ -52,3 +52,13 @@ Template extraction contains two phases: ***template collection*** and ***select
 ```
 python template-extraction/template.py
 ```
+
+### Template-based Seq2seq
+We implement a general seq2seq framework that contains both vanilla seq2seq and tseqseq model. 
+You can train with vanilla seq2seq model by setting ```tseq2seq``` to False.
+```
+python tseq2seq/Main.py
+```
+You can also adjust the learning rate if the loss is decreasing too slow or seems to over-fit.
+The dimension of word embedding and hidden units can also easily be changed in ```Main.py```.
+
