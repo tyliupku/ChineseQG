@@ -1,1 +1,1 @@
-*.rb linguist-language=Perl
+*.perl linguist-language=Python
