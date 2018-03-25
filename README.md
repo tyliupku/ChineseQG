@@ -42,9 +42,9 @@ The (question, triple, answer) triples in ```nlpcc-iccpol-2016.kbqa.training-dat
 Here we provide implementations for template extraction model and template-based seq2seq (tseq2seq) model.
 
 ### Preprocess
-First of all, we do some preprocessing work on the original training and testing data, including creating vocabulary table, vectorizing input chinese characters and preparing for ***BLEU*** and ***ROUGE*** evaluations.
+First of all, we do some preprocessing work (using **python3** instead of python2 to avoid chinese character encoding errors) on the original training and testing data, including creating vocabulary table, vectorizing input chinese characters and preparing for ***BLEU*** and ***ROUGE*** evaluations.
 ```
-python preprocess.py
+python3 preprocess.py
 ```
 
 ### Template Extraction
