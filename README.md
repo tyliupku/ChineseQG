@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 
 ### Data
-We focus on Chinese simple question generation based on open-domain Chinese knowledge base provided by [NLPCC 2017 Shared Task 5](http://tcci.ccf.org.cn/conference/2017/taskdata.php). The training file ```nlpcc-iccpol-2016.kbqa.training-data``` and testing file ```nlpcc-iccpol-2016.kbqa.testing-data``` in our experiments are also from the KBQA challenge.
+We focus on Chinese simple question generation based on open-domain Chinese knowledge base provided by [NLPCC 2017 Shared Task 5](http://tcci.ccf.org.cn/conference/2017/taskdata.php). The training file ```nlpcc-iccpol-2016.kbqa.training-data``` in our experiments is from the KBQA challenge.
 
 ## Format
 KB-based simple questions are the questions which only involve one-hop inference on the knowledge graph. In other words, we generate simple questions in this work only by single triples. 
